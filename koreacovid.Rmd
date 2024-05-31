@@ -89,8 +89,10 @@ fisher.test(table1)
 The inferential results, using a chi-squired test, showed that the p-vaule is 0.001, therefore we reject the null hypothesis.
 In the second part of the chi-squared test, the p-value is  0.0012, which is also below .5 as so we reject the null hypothesis
 
-The Fisher's Exact Test for Count Data shows that the p-vaule is 0.009, which rejust the null hypothesis too. The data also shows that males have a odd ratio of 2.3 likability to die than females under the conditions of having covid in korea.
+The Fisher's Exact Test for Count Data shows that the p-vaule is 0.009, which reject the null hypothesis too. The data also shows that males have a odd ratio of 2.3 likability to die than females under the conditions of having covid in korea.
 
 
 ## Conclusions
+
+To conclude, after being asked if sex in an independent to individuals deaths under the conditions of having covid in korea, results showed that it does. Results from the bar chart also showed the amount of males who died compared to women. Results as taken from the fishers test, showed that males have a odd ratio of 2.3,  more times likely to die than women. This was concluding after the p-vaule taken form the chi-squre test was 0.001 which less than .5, rejecting the null hypothesis. Concluding that sex and death do relate to each other.
 
