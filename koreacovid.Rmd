@@ -48,14 +48,17 @@ CAT~CAT
 
 #Results
 
+
 ## Graphical results - use ggplot commands to do this  
 
 ```{r}
-barchartGC(~class + Sex,data=ucdavis1)
-barchartGC(~class + Sex,data=ucdavis1, type="percent")
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
 ```
 
+  
+The barchart shows that males have a high chance of dying than females.
 
 
 
