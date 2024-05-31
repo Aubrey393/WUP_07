@@ -80,8 +80,14 @@ The results of the numerical summary also show that among the 98.7% of females t
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+The inferential results, using a chi-squired test, showed that the p-vaule is 0.001, therefore we reject the null hypothesis.
+In the second part of the chi-squared test, the p-value is  0.0012, which is also below .5 as so we reject the null hypothesis
 
 ## Conclusions
 
