@@ -66,6 +66,17 @@ The barchart shows that males have a high chance of dying than females.
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical results show that among the people who died, 64% of those who died
+were males, while only 36% of the females died. Concluding that a higher percent of the individuals who died were men.
+
+The results of the numerical summary also show that among the 98.7% of females that were alive, only 1.4% died. The graph also shows that among the 97% of males, 3% of them died. Showing that the higher percent of deaths were males. 
+
 
 ## Inferential results 
 
