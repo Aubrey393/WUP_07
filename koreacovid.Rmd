@@ -22,7 +22,7 @@ mutate(across(where(is.character), as.factor))
 ###introduction 
 
 
-Data was taken of several individuals regarding age, state, and sex and  who is more susceptible to dying as a result of sex. This study data was taken from  South Korea 1 Jan to 1 May 2020. Furthermore, this leads to the question. Does the sex interfere with the chance of dying?
+Data was taken of several individuals regarding age, state, and sex and  who is more susceptible to dying as a result of sex. This study data was taken from  South Korea 1 Jan to 1 May 2020. Furthermore, this leads to the question. Does the sex interfere with the chance of dying under the conditions of having covid in korea.?
 
 
 ### Data is from the Patient_Info dataset from South Korea 1 Jan to 1 May 2020
@@ -34,9 +34,9 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
-$H_0$: Sex of individual is not an independent  of individuals death.
+$H_0$: Sex of individual is not an independent  of individuals death under the conditions of having covid in korea..
 
-$H_A$: Sex is an independent to the individuals death.
+$H_A$: Sex is an independent to the individuals death under the conditions of having covid in korea..
 
 
 #methods
@@ -58,7 +58,7 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 ```
 
   
-The barchart shows that males have a high chance of dying than females.
+The barchart shows that males have a high chance of dying than females under the conditions of having covid in korea..
 
 
 
@@ -75,7 +75,7 @@ colPerc(table1)
 The numerical results show that among the people who died, 64% of those who died
 were males, while only 36% of the females died. Concluding that a higher percent of the individuals who died were men.
 
-The results of the numerical summary also show that among the 98.7% of females that were alive, only 1.4% died. The graph also shows that among the 97% of males, 3% of them died. Showing that the higher percent of deaths were males. 
+The results of the numerical summary also show that among the 98.7% of females that were alive, only 1.4% died. The graph also shows that among the 97% of males, 3% of them died. Both geneder under the conditions of having covid in korea. Showing that the higher percent of deaths were males . 
 
 
 ## Inferential results 
@@ -88,6 +88,9 @@ fisher.test(table1)
 
 The inferential results, using a chi-squired test, showed that the p-vaule is 0.001, therefore we reject the null hypothesis.
 In the second part of the chi-squared test, the p-value is  0.0012, which is also below .5 as so we reject the null hypothesis
+
+The Fisher's Exact Test for Count Data shows that the p-vaule is 0.009, which rejust the null hypothesis too. The data also shows that males have a odd ratio of 2.3 likability to die than females under the conditions of having covid in korea.
+
 
 ## Conclusions
 
