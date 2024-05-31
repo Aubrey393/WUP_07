@@ -18,6 +18,13 @@ kRdata <- kRdata %>%
 mutate(across(where(is.character), as.factor))
 
 ```
+
+###introduction 
+
+
+Data was taken of several individuals regarding age, state, and sex and  who is more susceptible to dying as a result of sex. This study data was taken from  South Korea 1 Jan to 1 May 2020. Furthermore, this leads to the question. Does the sex interfere with the chance of dying?
+
+
 ### Data is from the Patient_Info dataset from South Korea 1 Jan to 1 May 2020
 ### This data was retrieved from a downloadable zip file from kaggle
 
@@ -27,6 +34,16 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+$H_0$: Sex of individual is not an independent  of individuals death.
+
+$H_A$: Sex is an independent to the individuals death.
+
+
+#methods
+
+Result is a categorical variable, sex is categorical. 
+Result depends on sex, we use helper file
+CAT~CAT
 
 
 
